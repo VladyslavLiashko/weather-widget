@@ -26,54 +26,56 @@
                         <p>Brazil, BR</p>
                     </div>
                 </header>
-                <div class="weather-icon"> <img src="img/sun.png" alt=""></div>
-                <div class="degrees">29 C</div>
+                <div class="todays-weather-wrapper">
+                    <div class="weather-icon"> <img src="img/sun.png" alt=""></div>
+                    <div class="degrees">29 C</div>
+                </div>
                 <div class="weather">Sunny</div>
             </div>
         </div>
         <div class="right-side">
-           <div class="right-side-wrapper">
-            <div class="column-block">
-                <div class="column one">
-                    <p class="name">FEELS LIKE</p>
-                    <p class="column-percent onee">0%</p>
+            <div class="right-side-wrapper">
+                <div class="column-block">
+                    <div class="column one">
+                        <p class="name">FEELS LIKE</p>
+                        <p class="column-percent onee">0%</p>
+                    </div>
+                    <div class="column two">
+                        <p class="name">HUMIDITY</p>
+                        <p class="column-percent twoo"></p>
+                    </div>
+                    <div class="column three">
+                        <p class="name">WIND</p>
+                        <p class="column-percent threee">3 km/h</p>
+                    </div>
                 </div>
-                <div class="column two">
-                    <p class="name">HUMIDITY</p>
-                    <p class="column-percent twoo"></p>
+                <div class="week-weather-wrapper">
+                    <div class="this-day">
+                        <div class="this-day-icon icons"><img src="img/sun.png" alt=""></div>
+                        <div class="this-day-day" style="margin-top: 15%; margin-bottom: 15%;"> Tue</div>
+                        <div class="this-day-degrees" style="margin-top: 15%; margin-bottom: 15%;"> 30 C</div>
+                    </div>
+                    <div class="next-day">
+                        <div class="next-day-icon icons"><img src="img/sun.png" alt=""></div>
+                        <div class="next-day-day" style="margin-top: 15%; margin-bottom: 15%;"> Fri</div>
+                        <div class="next-day-degrees" style="margin-top: 15%; margin-bottom: 15%;"> 40 C</div>
+                    </div>
+                    <div class="third-day">
+                        <div class="third-day-icon icons"><img src="img/sun.png" alt=""></div>
+                        <div class="third-day-day" style="margin-top: 15%; margin-bottom: 15%;"> Tue</div>
+                        <div class="third-day-degrees" style="margin-top: 15%; margin-bottom: 15%;"> 30 c</div>
+                    </div>
+                    <div class="fourth-day">
+                        <div class="fourth-day-icon icons"><img src="img/sun.png" alt=""></div>
+                        <div class="fourth-day-day" style="margin-top: 15%; margin-bottom: 15%;"> Tue</div>
+                        <div class="fourth-day-degrees" style="margin-top: 15%; margin-bottom: 15%;">30 c</div>
+                    </div>
                 </div>
-                <div class="column three">
-                    <p class="name">WIND</p>
-                    <p class="column-percent threee">3 km/h</p>
-                </div>
+                <form action="#">
+                    <input type="text" name="enter" id="enter" placeholder="Enter your city...">
+                    <input type="button" name="btn" value="GO" id="submit">
+                </form>
             </div>
-            <div class="week-weather-wrapper">
-                <div class="this-day">
-                    <div class="this-day-icon icons"><img src="img/sun.png" alt=""></div>
-                    <div class="this-day-day" style="margin-top: 15%; margin-bottom: 15%;"> Tue</div>
-                    <div class="this-day-degrees" style="margin-top: 15%; margin-bottom: 15%;"> 30 C</div>
-                </div>
-                <div class="next-day">
-                    <div class="next-day-icon icons"><img src="img/sun.png" alt=""></div> 
-                    <div class="next-day-day" style="margin-top: 15%; margin-bottom: 15%;">  Fri</div>
-                    <div class="next-day-degrees" style="margin-top: 15%; margin-bottom: 15%;"> 40 C</div>
-                </div>
-                <div class="third-day">
-                    <div class="third-day-icon icons"><img src="img/sun.png" alt=""></div>
-                    <div class="third-day-day" style="margin-top: 15%; margin-bottom: 15%;"> Tue</div>
-                    <div class="third-day-degrees" style="margin-top: 15%; margin-bottom: 15%;">  30 c</div>
-                </div>
-                <div class="fourth-day">
-                    <div class="fourth-day-icon icons"><img src="img/sun.png" alt=""></div>
-                    <div class="fourth-day-day" style="margin-top: 15%; margin-bottom: 15%;"> Tue</div>
-                    <div class="fourth-day-degrees" style="margin-top: 15%; margin-bottom: 15%;">30 c</div>
-                </div>
-            </div>
-            <form action="#">
-                <input type="text" name="enter" id="enter" placeholder="Enter your city...">
-                <input type="button" name="btn" value="GO" id="submit">
-            </form>
-           </div>
         </div>
     </div>
     <script src="main.js"></script>

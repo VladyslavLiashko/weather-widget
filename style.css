@@ -133,16 +133,17 @@ body {
 .fourth-day {
     height: 20%;
     text-align: center;
+    margin-right: 3%;
 
 }
 
 .this-day {
-    background-color: #FFFFFF;
+    background-color: #272E37;
     font-size: 15px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    color: black;
+    color: #FFFFFF;
     box-shadow: 1px 2px 4px #222831;
     border-radius: 10px;
 
@@ -217,4 +218,163 @@ form {
     font-style: normal;
     font-weight: 400;
     border: none;
+}
+
+/* Ховеры */
+.this-day:hover{
+    background-color: #FFFFFF;
+    color: black;
+    /* width: 35%; */
+    cursor: pointer;
+    transition: 2s;
+}
+.next-day:hover{
+    background-color: #FFFFFF;
+    color: black;
+    /* width: 35%; */
+    cursor: pointer;
+    transition: 2s;
+}
+.third-day:hover{
+    background-color: #FFFFFF;
+    color: black;
+    /* width: 35%; */
+    cursor: pointer;
+    transition: 2s;
+}
+.fourth-day:hover{
+    background-color: #FFFFFF;
+    color: black;
+    /* width: 35%; */
+    cursor: pointer;
+    transition: 2s;
+}
+#submit:hover{
+    background-color: #272a6e;
+    cursor: pointer;
+    transition: 1s;
+}
+/* Адаптация */
+@media(max-width: 1100px){
+    .day{
+        font-size: 30px;
+    }
+    .degrees{
+        font-size: 30px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .column-percent{
+        font-size: 15px;
+    }
+    .this-day, .next-day, .third-day, .fourth-day{
+        font-size: 10px;
+        margin: 1%;
+    }
+}
+@media(max-width:840px){
+    .main-wrapper{
+        display: block;
+        margin: auto;
+    }
+    .left-side{
+        width: 60%;
+        height: 300px;
+        position: relative;
+        top: 20px;
+        left: 0;
+        margin-left: 25%;
+    }
+    .weather-icon{
+        margin-top: 0;
+    }
+    .weather-icon img{
+        width: 10%;
+    }
+
+    .right-side{
+        width: 50%;
+        display: block;
+        margin-left: 30%;
+        margin-top: 0;
+    }
+    .right-side-wrapper{
+        width: 100%;
+    }
+    .column{
+        margin: 2%;
+    }
+    .one{
+        padding-top: 5%;
+        margin-top: 0;
+
+    }
+    .week-weather-wrapper{
+        margin: 4%;
+    }
+    form{
+        margin-top: 5%;
+    }
+    #enter {
+        height: 50px;
+        margin: 4%;
+        margin-right: 0;
+    }
+    #submit{
+        height: 50px;
+    }
+}
+@media(max-width:400px){
+    .left-side{
+        height: 200px;
+    }
+    .day{
+        font-size: 15px;
+    }
+    .date{
+        font-size: 15px;
+        margin-top: 0;
+    }
+    .location{
+        margin:0;
+        margin-top: 3%;
+    }
+    .location p{
+        font-size: 15px;
+        margin: 0;
+        
+    }
+    .todays-weather-wrapper{
+        display: flex;
+    }
+    .weather-icon img{
+        width: 30%;
+    }
+    .degrees{
+        font-size: 15px;
+        line-height: 10px;
+        padding-top: 8px;
+    }
+    .weather{
+        font-size: 10px;
+    }
+    .name{
+        font-size: 10px;
+    }
+    .column-percent{
+        font-size: 10px;
+    }
+    .this-day, .next-day, .third-day, .fourth-day{
+        font-size: 10px;
+        margin: 1%;
+    }
+    #enter {
+        height: 30px;
+        margin: 4%;
+        margin-right: 0;
+    }
+    #submit{
+        height: 30px;
+    }
 }
